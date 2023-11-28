@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>My Personal Website</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="a.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div id="slide">
+            <div class="item" style="background-image: url(b1.jpg);">
+                <div class="content">
+                    <div class="name">ABOUT ME</div>
+                    <div class="des">My personal information, social media, projects...</div>
+                    <button>See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(b4.jpg);">
+                <div class="content">
+                    <div class="name">RANDOM</div>
+                    <div class="des">Random things about me...</div>
+                    <button>See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(b3.jpg);">
+                <div class="content">
+                    <div class="name">ALBUMS</div>
+                    <div class="des">My collection of memories...</div>
+                    <button>See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(b5.jpg);">
+                <div class="content">
+                    <div class="name">LUNDEV</div>
+                    <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                    <button>See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(b2.jpg);">
+                <div class="content">
+                    <div class="name">LUNDEV</div>
+                    <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                    <button>See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(b6.jpg);">
+                <div class="content">
+                    <div class="name">PRIVATE</div>
+                    <div class="des">This section is password-protected. 
+                        Please enter the password to access.</div>
+                    <section id="private-entries">
+                        <input type="password" id="passwordInput" placeholder="Enter Password">
+                        <button onclick="checkPassword()">Submit</button>
+                        <div id="private-entries-content" style="display: none;">
+                            <!-- Display private entries here -->
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+            <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div>
+
+    <script src="a.js"></script>
+</body>
+</html>
+  
